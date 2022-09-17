@@ -1,0 +1,21 @@
+
+.hidden {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 55px;
+    left: 60%;
+    bottom: 1px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    opacity: 0;
+}
+.vissible {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 55px;
+    left: 60%;
+    bottom: 100px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    opacity: 1;
+}
