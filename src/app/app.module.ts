@@ -11,6 +11,8 @@ import { CardInfoComponent } from './card-info/card-info.component';
 import { LoginModule } from './login/login.module';
 import { LoginFormComponent } from './login/components/login-form/login-form.component';
 import { AlertComponent } from './alert/alert.component';
+import { Homework2Component } from './homework2/homework2.component';
+import { Homework2ItemComponent } from './homework2-item/homework2-item.component';
 
 
 
@@ -21,7 +23,9 @@ import { AlertComponent } from './alert/alert.component';
     HomepageComponent,
     AboutComponent,
     CardItemComponent,
-    CardInfoComponent, 
+    CardInfoComponent,
+    Homework2Component,
+    Homework2ItemComponent, 
   ],
   imports: [
     BrowserModule,

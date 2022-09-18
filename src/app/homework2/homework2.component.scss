@@ -1,0 +1,30 @@
+div {
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    .title-container
+    {
+        height: 100px;
+        h2 {
+            transition: 0.2s;     
+           }
+    }
+    
+    .items-container {
+         display: flex;
+         justify-content: center;
+         flex-wrap: wrap;
+         align-items: flex-start;
+         gap:50px;
+         width: 100%;
+         flex-direction: row;
+    }
+    
+}
+.additional-content {
+    margin: 15px 0px 0px;
+}
