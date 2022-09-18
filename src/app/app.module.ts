@@ -13,6 +13,8 @@ import { LoginFormComponent } from './login/components/login-form/login-form.com
 import { AlertComponent } from './alert/alert.component';
 import { Homework2Component } from './homework2/homework2.component';
 import { Homework2ItemComponent } from './homework2-item/homework2-item.component';
+import { HomeworksComponent } from './homeworks/homeworks.component';
+import { HomeworksItemComponent } from './homeworks-item/homework-item.component';
 
 
 
@@ -25,7 +27,9 @@ import { Homework2ItemComponent } from './homework2-item/homework2-item.componen
     CardItemComponent,
     CardInfoComponent,
     Homework2Component,
-    Homework2ItemComponent, 
+    Homework2ItemComponent,
+    HomeworksComponent,
+    HomeworksItemComponent, 
   ],
   imports: [
     BrowserModule,

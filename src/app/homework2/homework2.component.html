@@ -7,21 +7,25 @@
         <app-homework2-item 
         [title]="'Random shadow'"
         [imgSrc] = "'https://cdn-icons-png.flaticon.com/512/107/107160.png'" 
+        [bgColor]="'#9dffd2'"
         (onButtonClick)="randomShadow()"></app-homework2-item>
 
         <app-homework2-item 
         [title]="'Random color'"
         [imgSrc]="'https://cdn-icons-png.flaticon.com/512/2205/2205935.png'"
+        [bgColor]="'rgb(229 246 255)'"
         (onButtonClick)="randomColor()"></app-homework2-item>
 
         <app-homework2-item 
         [title]="'Random background'"
         [imgSrc]="'https://cdn-icons-png.flaticon.com/512/4671/4671164.png'"
+        [bgColor]="'rgb(248 232 255)'"
         (onButtonClick)="randomBackground()"></app-homework2-item>
 
         <app-homework2-item 
         [title]="'Random font'"
         [imgSrc]="'https://cdn-icons-png.flaticon.com/512/3721/3721819.png'"
+        [bgColor]="'rgb(231 255 237)'"
         (onButtonClick)="randomFont()">
             <p class="additional-content" #additionalContent>My additional content!</p></app-homework2-item>
     </div>
