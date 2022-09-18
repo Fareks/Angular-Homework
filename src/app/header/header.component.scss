@@ -7,6 +7,10 @@ header {
     .logoText {
         margin-left: 20px;
         color: aliceblue;
+        user-select: none;
+        font-size: large;
+        font-family: 'Montserrat';
+        font-weight: 600;
     }
     ul {
         display: flex;
