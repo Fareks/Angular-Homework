@@ -8,6 +8,7 @@ export class MyServiceService {
 
   constructor() { }
   public textText$ = new Subject<string>(); 
+  public textText2$ = new Subject<string>();
   arr: string[] = [];
   writeMessage(text : string) {
     console.log(text);
@@ -15,9 +16,11 @@ export class MyServiceService {
   getText(){
     return this.textText$;
   }
+
   setText(newText :string){
     this.textText$.next(newText);
   };
+
   addToArr (item : string = "newItem")
   {
     this.arr.push(item);
