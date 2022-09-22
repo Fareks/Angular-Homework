@@ -15,6 +15,9 @@ import { Homework2Component } from './homework2/homework2.component';
 import { Homework2ItemComponent } from './homework2-item/homework2-item.component';
 import { HomeworksComponent } from './homeworks/homeworks.component';
 import { HomeworksItemComponent } from './homeworks-item/homework-item.component';
+import { Homework3Component } from './homework-3/homework3/homework3.component';
+import { BackgroundDirective } from './homework-3/directives/background.directive';
+import { MyPipePipe } from './homework-3/pipes/my-pipe.pipe';
 
 
 
@@ -29,7 +32,9 @@ import { HomeworksItemComponent } from './homeworks-item/homework-item.component
     Homework2Component,
     Homework2ItemComponent,
     HomeworksComponent,
-    HomeworksItemComponent, 
+    HomeworksItemComponent,
+    Homework3Component, 
+    BackgroundDirective, MyPipePipe
   ],
   imports: [
     BrowserModule,

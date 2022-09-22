@@ -9,3 +9,8 @@ div {
         font-size: 19px;
     }
 }
+.homeworks-container {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
