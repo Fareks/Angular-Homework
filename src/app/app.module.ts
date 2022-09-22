@@ -18,6 +18,9 @@ import { HomeworksItemComponent } from './homeworks-item/homework-item.component
 import { Homework3Component } from './homework-3/homework3/homework3.component';
 import { BackgroundDirective } from './homework-3/directives/background.directive';
 import { MyPipePipe } from './homework-3/pipes/my-pipe.pipe';
+import { HomeworkservicesComponent } from './homework-services/homeworkservices/homeworkservices.component';
+import { MyServiceService } from './homework-services/my-service.service';
+import { ItemComponent } from './homework-services/item/item.component';
 
 
 
@@ -34,7 +37,7 @@ import { MyPipePipe } from './homework-3/pipes/my-pipe.pipe';
     HomeworksComponent,
     HomeworksItemComponent,
     Homework3Component, 
-    BackgroundDirective, MyPipePipe
+    BackgroundDirective, MyPipePipe, HomeworkservicesComponent, ItemComponent
   ],
   imports: [
     BrowserModule,
@@ -42,7 +45,7 @@ import { MyPipePipe } from './homework-3/pipes/my-pipe.pipe';
     FormsModule,
     LoginModule
   ],
-  providers: [],
+  providers: [MyServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
