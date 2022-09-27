@@ -22,8 +22,10 @@ import { HomeworkservicesComponent } from './homework-services/homeworkservices/
 import { MyServiceService } from './homework-services/my-service.service';
 import { ItemComponent } from './homework-services/item/item.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
-
+import { AngularMaterialPageComponent } from './angular-material-page/angular-material-page.component';
+import {MatMenuModule} from '@angular/material/menu';
+import { MatSliderModule } from '@angular/material/slider';
+import {MatChipsModule} from '@angular/material/chips';
 
 @NgModule({
   declarations: [
@@ -38,14 +40,22 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HomeworksComponent,
     HomeworksItemComponent,
     Homework3Component, 
-    BackgroundDirective, MyPipePipe, HomeworkservicesComponent, ItemComponent
+    BackgroundDirective, 
+    MyPipePipe, 
+    HomeworkservicesComponent, 
+    ItemComponent, 
+    AngularMaterialPageComponent,
+   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     LoginModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatSliderModule,
+    MatMenuModule,
+    MatChipsModule
   ],
   providers: [MyServiceService],
   bootstrap: [AppComponent]

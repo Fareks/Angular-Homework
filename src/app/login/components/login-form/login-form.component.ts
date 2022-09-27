@@ -14,6 +14,6 @@ export class LoginFormComponent implements OnInit {
   }
   
   onLogin (alertRef : AlertComponent){
-    alertRef.showMessage('Login doen`t work!');
+    alertRef.showMessage('Login doesn`t work!');
   }
 }

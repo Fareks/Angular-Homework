@@ -5,19 +5,19 @@ body {
     background-color: rgb(241, 244, 245);
     margin: 0 auto;
 }
-button {
-    padding: 10px 15px;
-    background-color: rgb(159, 255, 207);
-    border: 1px solid rgba(255, 255, 255, 0);
-    border-radius: 5px;
-    box-shadow: rgba(60, 64, 67, 0.158) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-    cursor: pointer;
-    margin: 15px;
-    transition: 0.2s;
-    &:hover {
-        transition: 0.2s;
-        background-color: rgb(146, 214, 181);
-    }
-}
+// button {
+//     padding: 10px 15px;
+//     background-color: rgb(159, 255, 207);
+//     border: 1px solid rgba(255, 255, 255, 0);
+//     border-radius: 5px;
+//     box-shadow: rgba(60, 64, 67, 0.158) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+//     cursor: pointer;
+//     margin: 15px;
+//     transition: 0.2s;
+//     &:hover {
+//         transition: 0.2s;
+//         background-color: rgb(146, 214, 181);
+//     }
+// }
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
