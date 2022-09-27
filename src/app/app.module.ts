@@ -21,6 +21,7 @@ import { MyPipePipe } from './homework-3/pipes/my-pipe.pipe';
 import { HomeworkservicesComponent } from './homework-services/homeworkservices/homeworkservices.component';
 import { MyServiceService } from './homework-services/my-service.service';
 import { ItemComponent } from './homework-services/item/item.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 
@@ -43,7 +44,8 @@ import { ItemComponent } from './homework-services/item/item.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    LoginModule
+    LoginModule,
+    BrowserAnimationsModule
   ],
   providers: [MyServiceService],
   bootstrap: [AppComponent]
